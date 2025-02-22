@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 🖥️ CodePen Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **CodePen Clone** project!  
+This web application allows users to write, edit, and preview **HTML, CSS, and JavaScript** code in real-time, mimicking the functionality of the original CodePen platform.  
 
-## Available Scripts
+🚀 **Live Demo:** [CodePen Clone](https://codepen-clone-weld.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📍 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [🚀 Demo](#-demo)  
+- [✨ Features](#-features)  
+- [🛠️ Technologies Used](#-technologies-used)  
+- [📄 Sections Overview](#-sections-overview)  
+  - [🏠 Editor Section](#-editor-section)  
+  - [📄 Output Preview](#-output-preview)  
+  - [⚙️ Settings & Controls](#-settings--controls)  
+- [⚙️ Setup Instructions](#-setup-instructions)  
+- [🤝 Contributing](#-contributing)  
+- [📄 License](#-license)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 **Live Project:** [Click here to view the CodePen Clone](https://codepen-clone-weld.vercel.app/)  
 
-### `npm run build`
+Experience **live code editing** with instant previews and an intuitive interface.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ **Real-time Code Editor:** Live preview of HTML, CSS, and JavaScript code changes.  
+✅ **Responsive Layout:** Seamless usage across desktops, tablets, and mobile devices.  
+✅ **Code Persistence:** Keeps code in local storage, preventing accidental loss.  
+✅ **Split-View Editor:** Organized layout for writing code in different languages simultaneously.  
+✅ **Syntax Highlighting:** Enhanced code readability with colored syntax.  
+✅ **Hover & Scroll Animations:** Smooth transitions and interactive UI elements.  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React** – Core library for building the user interface  
+- **Vite** – Fast build tool for quick development and optimization  
+- **CodeMirror** – Powerful code editor with syntax highlighting  
+- **CSS3** – For styling and responsive layouts  
+- **Local Storage API** – For saving user code between sessions  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 Sections Overview
 
-## Learn More
+### 🏠 Editor Section
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Three distinct panes for **HTML**, **CSS**, and **JavaScript** editing.  
+- **Syntax highlighting** powered by CodeMirror for enhanced readability.  
+- **Code auto-save feature** to prevent data loss during editing.  
+- Hover animations for buttons and active input fields.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 📄 Output Preview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Live rendering of the combined **HTML, CSS, and JavaScript** code.  
+- Instant updates reflect code changes without needing manual refresh.  
+- Responsive design ensures accurate previews across different devices.  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ⚙️ Settings & Controls
 
-### Making a Progressive Web App
+- **Reset Button:** Clears all code from the editor.  
+- **Save Feature:** Automatically saves code to local storage for session persistence.  
+- Scroll-triggered animations enhance user interaction.  
+- Responsive editor layout that adjusts based on screen size.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## ⚙️ Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Follow these steps to run the project locally:
 
-### Deployment
+1. **Clone the repository:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/Rohanthakur-01/codepen-clone.git
